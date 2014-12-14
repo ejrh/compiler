@@ -7,6 +7,8 @@
 #ifndef LEX_H
 #define LEX_H
 
+typedef struct PARSER PARSER;
+
 #include "compiler.h"
 #include "grammar.tab.h"
 
