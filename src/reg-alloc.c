@@ -226,7 +226,7 @@ static int check_test(MODULE *module, FUNCTION *func, NODE *vertex)
 static int check_validity(MODULE *module, FUNCTION *func)
 {
     GRAPH *graph = func->graph;
-    int changed;
+    int changed = 0;
     
     int i;
     for (i = 0; i < tree_num_children(graph); i++)

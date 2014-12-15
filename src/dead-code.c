@@ -14,7 +14,7 @@
  */ 
 int remove_dead_code(MODULE *module, FUNCTION *func)
 {
-    int changed;
+    int changed = 0;
     int i;
     
     for (i = 0; i < tree_num_children(func->graph); i++)
